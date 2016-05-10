@@ -15,6 +15,8 @@
 		55F2C6D41CE1D8D800A4D731 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F2C6D21CE1D8D800A4D731 /* LaunchScreen.storyboard */; };
 		55F2C6DF1CE1D8D800A4D731 /* ImageListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F2C6DE1CE1D8D800A4D731 /* ImageListTests.m */; };
 		55F2C6EA1CE1D8D800A4D731 /* ImageListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F2C6E91CE1D8D800A4D731 /* ImageListUITests.m */; };
+		55F2C6F91CE1DC2000A4D731 /* ImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F2C6F81CE1DC2000A4D731 /* ImageTableViewCell.m */; };
+		7247E49D1CF6EF4A1CEC2181 /* libPods-ImageList.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E17B4A0E81E35871F7533461 /* libPods-ImageList.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		55CB438B42A0B85DFDB42215 /* Pods-ImageList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageList.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImageList/Pods-ImageList.release.xcconfig"; sourceTree = "<group>"; };
 		55F2C6C11CE1D8D800A4D731 /* ImageList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55F2C6C51CE1D8D800A4D731 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		55F2C6C71CE1D8D800A4D731 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +54,10 @@
 		55F2C6E51CE1D8D800A4D731 /* ImageListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55F2C6E91CE1D8D800A4D731 /* ImageListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageListUITests.m; sourceTree = "<group>"; };
 		55F2C6EB1CE1D8D800A4D731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55F2C6F71CE1DC2000A4D731 /* ImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTableViewCell.h; sourceTree = "<group>"; };
+		55F2C6F81CE1DC2000A4D731 /* ImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTableViewCell.m; sourceTree = "<group>"; };
+		6389C03629096E22CE60FDC5 /* Pods-ImageList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageList.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImageList/Pods-ImageList.debug.xcconfig"; sourceTree = "<group>"; };
+		E17B4A0E81E35871F7533461 /* libPods-ImageList.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ImageList.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7247E49D1CF6EF4A1CEC2181 /* libPods-ImageList.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D9FCD72F62F4058EAE41C08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6389C03629096E22CE60FDC5 /* Pods-ImageList.debug.xcconfig */,
+				55CB438B42A0B85DFDB42215 /* Pods-ImageList.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		55F2C6B81CE1D8D700A4D731 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +102,8 @@
 				55F2C6DD1CE1D8D800A4D731 /* ImageListTests */,
 				55F2C6E81CE1D8D800A4D731 /* ImageListUITests */,
 				55F2C6C21CE1D8D800A4D731 /* Products */,
+				0D9FCD72F62F4058EAE41C08 /* Pods */,
+				723F6D51D4B4FC22C62130B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +129,8 @@
 				55F2C6D21CE1D8D800A4D731 /* LaunchScreen.storyboard */,
 				55F2C6D51CE1D8D800A4D731 /* Info.plist */,
 				55F2C6C41CE1D8D800A4D731 /* Supporting Files */,
+				55F2C6F71CE1DC2000A4D731 /* ImageTableViewCell.h */,
+				55F2C6F81CE1DC2000A4D731 /* ImageTableViewCell.m */,
 			);
 			path = ImageList;
 			sourceTree = "<group>";
@@ -140,6 +161,14 @@
 			path = ImageListUITests;
 			sourceTree = "<group>";
 		};
+		723F6D51D4B4FC22C62130B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E17B4A0E81E35871F7533461 /* libPods-ImageList.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55F2C6EE1CE1D8D800A4D731 /* Build configuration list for PBXNativeTarget "ImageList" */;
 			buildPhases = (
+				51F49994B90E7FB9B1401442 /* Check Pods Manifest.lock */,
 				55F2C6BD1CE1D8D800A4D731 /* Sources */,
 				55F2C6BE1CE1D8D800A4D731 /* Frameworks */,
 				55F2C6BF1CE1D8D800A4D731 /* Resources */,
+				CAA90A86D347703582307F2F /* Embed Pods Frameworks */,
+				F648D6BBBDE358AD9870467D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,12 +297,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		51F49994B90E7FB9B1401442 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CAA90A86D347703582307F2F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImageList/Pods-ImageList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F648D6BBBDE358AD9870467D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImageList/Pods-ImageList-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		55F2C6BD1CE1D8D800A4D731 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				55F2C6CC1CE1D8D800A4D731 /* ViewController.m in Sources */,
+				55F2C6F91CE1DC2000A4D731 /* ImageTableViewCell.m in Sources */,
 				55F2C6C91CE1D8D800A4D731 /* AppDelegate.m in Sources */,
 				55F2C6C61CE1D8D800A4D731 /* main.m in Sources */,
 			);
@@ -411,9 +492,11 @@
 		};
 		55F2C6EF1CE1D8D800A4D731 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6389C03629096E22CE60FDC5 /* Pods-ImageList.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ImageList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = in.shahas.ImageList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,9 +505,11 @@
 		};
 		55F2C6F01CE1D8D800A4D731 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55CB438B42A0B85DFDB42215 /* Pods-ImageList.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ImageList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = in.shahas.ImageList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +581,7 @@
 				55F2C6F01CE1D8D800A4D731 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55F2C6F11CE1D8D800A4D731 /* Build configuration list for PBXNativeTarget "ImageListTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +590,7 @@
 				55F2C6F31CE1D8D800A4D731 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55F2C6F41CE1D8D800A4D731 /* Build configuration list for PBXNativeTarget "ImageListUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +599,7 @@
 				55F2C6F61CE1D8D800A4D731 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
